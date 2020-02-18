@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/thumbnailer.dir/imageCompressor.c.o"
-  "libthumbnailer.a"
+  "libthumbnailer.dylib"
   "libthumbnailer.pdb"
 )
 

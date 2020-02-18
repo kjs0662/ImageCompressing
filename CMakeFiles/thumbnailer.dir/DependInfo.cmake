@@ -8,10 +8,18 @@ set(CMAKE_DEPENDS_CHECK_C
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "thumbnailer_EXPORTS"
+  )
+
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/opencv@2/2.4.13.7_7/include/opencv"
   "/usr/local/Cellar/opencv@2/2.4.13.7_7/include"
+  "/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/include"
+  "/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/include/darwin"
+  "/Users/jinseonkim/IdeaProjects/CloudSpring/src/main/java/com/jinseonkim/photocloud/imageService"
   )
 
 # Targets to which this target links.

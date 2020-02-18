@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/include/darwin/jni_md.h
+
+/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/include/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/include/jni_md.h
+
+/Users/jinseonkim/IdeaProjects/CloudSpring/src/main/java/com/jinseonkim/photocloud/imageService/com_jinseonkim_photocloud_imageService_ImageCompressing.h
+jni.h
+-
+
 /Users/jinseonkim/go/src/libs/thumbnailer/imageCompressor.c
 imageCompressor.h
 /Users/jinseonkim/go/src/libs/thumbnailer/imageCompressor.h
@@ -13,6 +27,10 @@ highgui.h
 /Users/jinseonkim/go/src/libs/thumbnailer/highgui.h
 cv.h
 /Users/jinseonkim/go/src/libs/thumbnailer/cv.h
+jni.h
+-
+com_jinseonkim_photocloud_imageService_ImageCompressing.h
+-
 
 /Users/jinseonkim/go/src/libs/thumbnailer/imageCompressor.h
 stdio.h

@@ -4,7 +4,7 @@ project(thumbnailer VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_library(thumbnailer imageCompressor.c)
+add_library(thumbnailer SHARED imageCompressor.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
@@ -16,4 +16,6 @@ find_package(Java REQUIRED)
 find_package (JNI REQUIRED)
 include (UseJava)
 
-set(CMAKE_JAVA_COMPILE_FLAGS -nowarn)
+include_directories("/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/include")
+include_directories("/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/include/darwin")
+include_directories("/Users/jinseonkim/IdeaProjects/CloudSpring/src/main/java/com/jinseonkim/photocloud/imageService")
